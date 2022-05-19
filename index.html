@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add Courses to Shopping Cart</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">
+                    <span class="logo-u">U</span>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li class="submenu">
+                            <img src="img/cart.png" id="img-cart">
+                            <div class="shopping-cart">
+                                <ul class="shopping-cart__list">
+                                    <li>Image</li>
+                                    <li>Name</li>
+                                    <li>Price</li>
+                                </ul>
+                                <div class="shopping-cart__content"></div>
+                                <a href="#" class="button clear-cart">Clear Cart</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Learn Something Today</h2>
+                <p class="hero-content__p">Special Offer, any course $15</p>
+                <form action="#" id="search" method="post" class="form">
+                    <input type="text" placeholder="What Do You Want To Learn? " id="search-course">
+                    <input type="submit" id="submit-search-course" class="submit-search-course">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-bar">
+        <div class="container">
+            <div class="items">
+                <div class="icon icon1">
+                    <p>20,000 online courses <br>
+                        Learn new skills</p>
+                </div>
+                <div class="icon icon2">
+                    <p>Expert Instructors<br>
+                        Learn with different teach styles</p>
+                </div>
+                <div class="icon icon3">
+                    <p>Lifetime access <br>
+                        learn at your own pace</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses-list">
+        <div class="container">
+            <h1 class="courses-list__heading">Online Courses</h1>
+            <div class="cards">
+
+                <div class="card">
+                    <img class="card__image" src="img/course1.jpg">
+                    <div class="card__body">
+                        <div class="card__text">
+                            <h4 class="card__title">HTML5, CSS3, JavaScript for beginners</h4>
+                            <p class="card__author">Juan Pedro</p>
+                            <img src="img/stars.png">
+                        </div>
+                        <div class="card__bottom">
+                            <p class="price">
+                                <span class="price-old">$200</span>
+                                <span class="price-new">$15</span>
+                            </p>
+                            <a href="#" class="button-primary button input add-to-cart" data-id="1">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card__image" src="img/course2.jpg">
+                    <div class="card__body">
+                        <div class="card__text">
+                            <h4 class="card__title">Cooking Course</h4>
+                            <p class="card__author">Juan Pedro</p>
+                            <img src="img/stars.png">
+                        </div>
+                        <div class="card__bottom">
+                            <p class="price">
+                                <span class="price-old">$200</span>
+                                <span class="price-new">$15</span>
+                            </p>
+                            <a href="#" class="button-primary button input add-to-cart" data-id="2">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card__image" src="img/course3.jpg">
+                    <div class="card__body">
+                        <div class="card__text">
+                            <h4 class="card__title">Guitar for beginners</h4>
+                            <p class="card__author">Juan Pedro</p>
+                            <img src="img/stars.png">
+                        </div>
+                        <div class="card__bottom">
+                            <p class="price">
+                                <span class="price-old">$200</span>
+                                <span class="price-new">$15</span>
+                            </p>
+                            <a href="#" class="button-primary button input add-to-cart" data-id="3">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card__image" src="img/course4.jpg">
+                    <div class="card__body">
+                        <div class="card__text">
+                            <h4 class="card__title">Orchard at home</h4>
+                            <p class="card__author">Juan Pedro</p>
+                            <img src="img/stars.png">
+                        </div>
+                        <div class="card__bottom">
+                            <p class="price">
+                                <span class="price-old">$200</span>
+                                <span class="price-new">$15</span>
+                            </p>
+                            <a href="#" class="button-primary button input add-to-cart" data-id="4">Add to
+                                Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card__image" src="img/course5.jpg">
+                    <div class="card__body">
+                        <div class="card__text">
+                            <h4 class="card__title">Home Decor with recycled products</h4>
+                            <p class="card__author">Juan Pedro</p>
+                            <img src="img/stars.png">
+                        </div>
+                        <div class="card__bottom">
+                            <p class="price">
+                                <span class="price-old">$200</span>
+                                <span class="price-new">$15</span>
+                            </p>
+                            <a href="#" class="button-primary button input add-to-cart" data-id="5">Add to
+                                Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card__image" src="img/course1.jpg">
+                    <div class="card__body">
+                        <div class="card__text">
+                            <h4 class="card__title">Web Design for beginners</h4>
+                            <p class="card__author">Juan Pedro</p>
+                            <img src="img/stars.png">
+                        </div>
+                        <div class="card__bottom">
+                            <p class="price">
+                                <span class="price-old">$200</span>
+                                <span class="price-new">$15</span>
+                            </p>
+                            <a href="#" class="button-primary button input add-to-cart" data-id="6">Add to
+                                Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card__image" src="img/course2.jpg">
+                    <div class="card__body">
+                        <div class="card__text">
+                            <h4 class="card__title">Learn to cook mexican food</h4>
+                            <p class="card__author">Juan Pedro</p>
+                            <img src="img/stars.png">
+                        </div>
+                        <div class="card__bottom">
+                            <p class="price">
+                                <span class="price-old">$200</span>
+                                <span class="price-new">$15</span>
+                            </p>
+                            <a href="#" class="button-primary button input add-to-cart" data-id="7">Add to
+                                Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card__image" src="img/course3.jpg">
+                    <div class="card__body">
+                        <div class="card__text">
+                            <h4 class="card__title">Build a Music Studio</h4>
+                            <p class="card__author">Juan Pedro</p>
+                            <img src="img/stars.png">
+                        </div>
+                        <div class="card__bottom">
+                            <p class="price">
+                                <span class="price-old">$200</span>
+                                <span class="price-new">$15</span>
+                            </p>
+                            <a href="#" class="button-primary button input add-to-cart" data-id="8">Add to
+                                Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card__image" src="img/course4.jpg">
+                    <div class="card__body">
+                        <div class="card__text">
+                            <h4 class="card__title">Harvest your own fruits and vegetables</h4>
+                            <p class="card__author">Juan Pedro</p>
+                            <img src="img/stars.png">
+                        </div>
+                        <div class="card__bottom">
+                            <p class="price">
+                                <span class="price-old">$200</span>
+                                <span class="price-new">$15</span>
+                            </p>
+                            <a href="#" class="button-primary button input add-to-cart" data-id="9">Add to
+                                Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card__image" src="img/course5.jpg">
+                    <div class="card__body">
+                        <div class="card__text">
+                            <h4 class="card__title">Cook home cookies</h4>
+                            <p class="card__author">Juan Pedro</p>
+                            <img src="img/stars.png">
+                        </div>
+                        <div class="card__bottom">
+                            <p class="price">
+                                <span class="price-old">$200</span>
+                                <span class="price-new">$15</span>
+                            </p>
+                            <a href="#" class="button-primary button input add-to-cart" data-id="10">Add to
+                                Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card__image" src="img/course1.jpg">
+                    <div class="card__body">
+                        <div class="card__text">
+                            <h4 class="card__title">Modern JavaScript</h4>
+                            <p class="card__author">Juan Pedro</p>
+                            <img src="img/stars.png">
+                        </div>
+                        <div class="card__bottom">
+                            <p class="price">
+                                <span class="price-old">$200</span>
+                                <span class="price-new">$15</span>
+                            </p>
+                            <a href="#" class="button-primary button input add-to-cart" data-id="11">Add to
+                                Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card__image" src="img/course2.jpg">
+                    <div class="card__body">
+                        <div class="card__text">
+                            <h4 class="card__title">100 Natural recipes</h4>
+                            <p class="card__author">Juan Pedro</p>
+                            <img src="img/stars.png">
+                        </div>
+                        <div class="card__bottom">
+                            <p class="price">
+                                <span class="price-old">$200</span>
+                                <span class="price-new">$15</span>
+                            </p>
+                            <a href="#" class="button-primary button input add-to-cart" data-id="12">Add to
+                                Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-footer">
+        <div class="container">
+            <footer class="footer">
+                <div class="footer-col">
+                    <nav id="primary" class="menu">
+                        <a class="link" href="#">For Business</a>
+                        <a class="link" href="#">Become an Instructor</a>
+                        <a class="link" href="#">Mobile Applications</a>
+                        <a class="link" href="#">Support</a>
+                        <a class="link" href="#">Help</a>
+                    </nav>
+                </div>
+                <div class="footer-col">
+                    <nav id="secondary" class="menu">
+                        <a class="link" href="#">About Us</a>
+                        <a class="link" href="#">Work with us</a>
+                        <a class="link" href="#">Blog</a>
+                    </nav>
+                </div>
+            </footer>
+        </div>
+        </footer>
+
+        <script src="js/app.js"></script>
+
+</body>
+
+</html>
