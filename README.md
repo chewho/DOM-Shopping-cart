@@ -1,3 +1,3 @@
-# DOM-Shopping-cart
+# Local Storage shopping cart
 
-https://chewho.github.io/DOM-Shopping-cart/
+https://chewho.github.io/LocalStorage-Shopping-cart/
